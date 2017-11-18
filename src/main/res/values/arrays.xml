@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bd_wal">
+        <item>0000011306</item>
+        <item>2</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>30</item>
+        <item>30</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="bq_ru">
+        <item>0000011328</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="cas_tr">
+        <item>0000010983</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="cel_tn">
+        <item>z0010088</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="clf_ph">
+        <item>0000011241</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>60</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="knb_mm">
+        <item>0000011227</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="mcl_za">
+        <item>0000011057</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="oys_ru">
+        <item>0000011299</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="qmb_pk">
+        <item>Z0010037</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="sma_ir">
+        <item>0000010997</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="trunk">
+        <item>0000001000</item>
+        <item>1</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+    <string-array name="wik_fk">
+        <item>0000006000</item>
+        <item>0</item>
+        <item>false</item>
+        <item>http://eservice.tinno.com/eservice/stsReport?reptype=report</item>
+        <item>180</item>
+        <item>60</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+        <item>defaultSet</item>
+    </string-array>
+</resources>

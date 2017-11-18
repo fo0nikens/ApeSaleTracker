@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@id/tvTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/select_send_type_title" />
+
+        <LinearLayout
+            android:id="@id/llSendType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvTips"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2.0dip"
+                android:layout_weight="1.0"
+                android:text="@string/select_send_type" />
+
+            <Spinner
+                android:id="@id/spinnerSendType"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2.0dip"
+                android:layout_weight="1.0"
+                android:drawSelectorOnTop="true" />
+
+            <CheckBox
+                android:id="@id/switchSendType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/switch_send_type" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@id/notify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/llSendType"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:text="@string/notify"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/llOpenTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/llSendType"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/maxtime" />
+
+            <EditText
+                android:id="@id/editopentime"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.0dip"
+                android:gravity="center_horizontal"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/llSpaceTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/llOpenTime"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="@string/testtime" />
+
+            <EditText
+                android:id="@id/spacetime"
+                android:layout_width="60.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.0dip"
+                android:gravity="center_horizontal"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day_set_text"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@id/daytime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@id/llButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llSpaceTime"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@id/btnclear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="@string/clear" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/llResult"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/llButton"
+            android:layout_marginTop="@dimen/activity_top_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/tvShowSendType"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip" />
+
+            <TextView
+                android:id="@id/tvShowOpenFile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_top_margin" />
+
+            <TextView
+                android:id="@id/tvShowSendResult"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_top_margin" />
+
+            <TextView
+                android:id="@id/tvShowVersion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_top_margin" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

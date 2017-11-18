@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">پیمایش به صفحه اصلی</string>
+    <string name="abc_action_bar_home_description_format">‏%1$s‏، %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">‏%1$s‏، %2$s‏، %3$s</string>
+    <string name="abc_action_bar_up_description">پیمایش به بالا</string>
+    <string name="abc_action_menu_overflow_description">گزینه‌های بیشتر</string>
+    <string name="abc_action_mode_done">تمام</string>
+    <string name="abc_activity_chooser_view_see_all">مشاهده همه</string>
+    <string name="abc_activitychooserview_choose_application">انتخاب برنامه</string>
+    <string name="abc_capital_off">خاموش</string>
+    <string name="abc_capital_on">روشن</string>
+    <string name="abc_search_hint">جستجو…</string>
+    <string name="abc_searchview_description_clear">پاک کردن عبارت جستجو</string>
+    <string name="abc_searchview_description_query">عبارت جستجو</string>
+    <string name="abc_searchview_description_search">جستجو</string>
+    <string name="abc_searchview_description_submit">ارسال عبارت جستجو</string>
+    <string name="abc_searchview_description_voice">جستجوی شفاهی</string>
+    <string name="abc_shareactionprovider_share_with">اشتراک‌گذاری با</string>
+    <string name="abc_shareactionprovider_share_with_application">‏اشتراک‌گذاری با %s</string>
+    <string name="abc_toolbar_collapse_description">کوچک کردن</string>
+    <string name="status_bar_notification_info_overflow">۹۹۹+</string>
+    <string name="app_name">STS</string>
+    <string name="btn_test">开始</string>
+    <string name="btn_test1">复位</string>
+    <string name="clear">清除销售追踪最终发送结果</string>
+    <string name="day_set_text">当天发送三次失败后第二天发送的间隔时间（分）</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="dialog_message">text</string>
+    <string name="dialog_message_promp">"Press Continue to register your phone with us for warranty services, updates and more.
+ *Standard SMS charges applicable."</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_pop_contact">Press Yes to register your handset to Wiko.</string>
+    <string name="dialog_pop_title">Warning</string>
+    <string name="dialog_title">Information</string>
+    <string name="dialog_title_promp">Registration</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="maxtime">开机多长时间启动（分钟）：</string>
+    <string name="notify">弹出框是否弹出</string>
+    <string name="process" />
+    <string name="save">保存</string>
+    <string name="sharedUserId" />
+    <string name="testtime">错误请求的间隔时间(分钟，最小值为1)：</string>
+    <string name="version">版本号:v2.0</string>
+    <string name="wiko_sts_text1">تبريكات ما را بابت خريد تلفن ويكو پذيرا باشيد.</string>
+    <string name="wiko_sts_text2">شركت ويكو متعهد ميشود كه به صورت همزمان و از راه دور كمك هاى فنى شخصى و فورى رابه شما ارائه دهد. ثبت</string>
+    <string name="wiko_sts_text3">تلفن خريدارى شده به ما اجازه ميدهد تا شما را در جريان به روز رسانى اطلاعات موجود و بهبود سازى كاربردى آن قرار دهيم.</string>
+    <string name="wiko_sts_text4">تائيد ثبت تلفن شما نزد شركت ويكو به منزله قبول شرايط موجود در كتابچه راهنماى گوشى كه هنگام خريد عرضه شده يا در وب سايت wikomobile.com ارائه گرديده ميباشد.</string>
+    <string name="wiko_sts_title">WIKO:</string>
+</resources>
